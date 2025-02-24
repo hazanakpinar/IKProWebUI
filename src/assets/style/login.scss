@@ -1,0 +1,136 @@
+.container {
+    display: flex;
+    height: 100vh;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+#root{
+    background: linear-gradient(to right, #007bff, #00c6ff);
+}
+
+.login-section {
+    flex: 1;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+    input {
+        padding: 10px !important;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        height: 45px;
+    }
+}
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.hg {
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    height: 45px;
+}
+
+.login {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #426488;
+}
+
+.sifremiUnuttum {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border: 2px solid black;
+    margin-top: 10px;
+
+    &:hover {
+        background: #426488;
+        color: whitesmoke;
+    }
+}
+
+.image-section {
+    flex: 1;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    //background: linear-gradient(to right, #007bff, #00c6ff);
+}
+
+.image-section img {
+    max-width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.image-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.image-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.register-link p {
+    color: #333;
+}

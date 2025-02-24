@@ -1,0 +1,19 @@
+.layout {
+    display: flex;          // Flexbox düzeni ile sidebar ve içerik ayırma
+    min-height: 100vh;      // Sayfa yüksekliğini tam almasını sağlıyoruz
+}
+
+.side-bar-menu {
+    width: 250px;           // Sidebar'ın genişliği
+    background-color: #f4f4f4; // Sidebar arka plan rengi
+    padding: 20px;          // Sidebar içeriği için padding
+    position: fixed;        // Sidebar'ı sabit tutuyoruz
+    height: 100%;           // Sidebar yüksekliği ekran yüksekliği kadar
+}
+
+.page-content {
+    flex-grow: 1;           // Content alanının esnemesini sağlıyoruz
+    margin-left: 250px;     // Sidebar genişliğine göre sağa kaydırıyoruz
+    padding: 20px;          // Content içeriği için padding
+    background-color: #fff; // İçeriğin arka plan rengi
+}

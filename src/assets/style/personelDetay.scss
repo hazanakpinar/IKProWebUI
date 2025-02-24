@@ -1,0 +1,61 @@
+.personel-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+  
+    .personel-info {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  
+      .info-group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+  
+        label {
+          font-weight: bold;
+          color: #555;
+        }
+  
+        span,
+        input {
+          flex: 1;
+          margin-left: 20px;
+          font-size: 16px;
+        }
+  
+        input {
+          padding: 8px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+      }
+    }
+  
+    .save-button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
